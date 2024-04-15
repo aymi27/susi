@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
 	config: {
-		name: "chatgpt",
+		name: "sisigpt",
 		version: 2.0,
 		author: "OtinXSandip",
 		longDescription: "chatgpt",
@@ -26,7 +26,7 @@ module.exports = {
 			const a = "repl";
 
 			if (!encodedPrompt) {
-				return message.reply("Please provide questions");
+				return message.reply("ano itatanong mo mima?");
 			}
 
 			if (args[0] === 'draw') {

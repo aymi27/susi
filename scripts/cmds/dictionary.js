@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = {
 	config: {
-		name: "dictionary",
+		name: "dict",
 		aliases: ["dict"],
 		version: "1.5",
 		author: "Otineeeeey",
